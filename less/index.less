@@ -137,6 +137,7 @@ table {
 html,
 body {
   height: 100%;
+
   // background-color: red;
 }
 
@@ -176,11 +177,13 @@ body {
 }
 h1 {
   font-family: @sedgwick;
+  font-size: 4rem;
 }
 h2,
 h3,
 nav {
   font-family: @kodchasan;
+  font-size: 3.5rem;
 }
 p {
   font-family: @muli;
@@ -200,6 +203,7 @@ table {
 body {
   background: linear-gradient(purple, white);
   background-repeat: no-repeat;
+  font-size: 2rem;
 }
 header.nav-wrapper {
   width: 100vw;
@@ -211,7 +215,7 @@ header.nav-wrapper {
     justify-content: space-around;
     text-align: center;
     a {
-      font-size: 1rem;
+      font-size: 3rem;
       color: whitesmoke;
       padding: 1rem;
       text-decoration: none;
@@ -230,7 +234,6 @@ header.nav-wrapper {
     h1 {
       padding-top: 1rem;
       text-align: center;
-      font-size: 2rem;
       color: purple;
     }
     p {
@@ -258,20 +261,26 @@ header.nav-wrapper {
   }
 }
 .skills {
+  margin-top: 2rem;
   .box:first-child {
     h2 {
       font-size: 2.5rem;
       text-shadow: 1px 2px 5px purple;
       margin-bottom: 1rem;
     }
+    p {
+      font-size: 1.2rem;
+    }
   }
   .arrow-background {
     background: url(https://images.unsplash.com/photo-1497005367839-6e852de72767?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position-y: center;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
     .box {
       ol {
         display: flex;
@@ -283,7 +292,7 @@ header.nav-wrapper {
           font-variant: small-caps;
           color: purple;
           font-weight: 700;
-          font-size: 2.25rem;
+          font-size: 1.2rem;
         }
       }
     }
