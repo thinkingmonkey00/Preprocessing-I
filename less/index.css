@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Sedgwick+Ave");
+
+@import url("https://fonts.googleapis.com/css?family=Kodchasan");
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -133,30 +140,6 @@ table {
 html,
 body {
   height: 100%;
-}
-@font-face {
-  font-family: 'Sedgwick Ave';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Sedgwick Ave Regular'), local('SedgwickAve-Regular'), url(https://fonts.gstatic.com/s/sedgwickave/v4/uK_04rKEYuguzAcSYRdWTJqMWWIx.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Kodchasan';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Kodchasan Regular'), local('Kodchasan-Regular'), url(https://fonts.gstatic.com/s/kodchasan/v2/1cXxaUPOAJv9sG4I-DJWiHGA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v12/7Auwp_0qiz-afTLGKA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Source Code Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v9/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevT.ttf) format('truetype');
 }
 h1 {
   font-family: 'Sedgwick Ave', cursive;
