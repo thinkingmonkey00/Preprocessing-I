@@ -158,8 +158,8 @@ body {
 @rounded: 10px;
 @circle: 50%;
 
-// Mixins 
-.border-radius (@radius: 5px) {
+//Mixins 
+.border-radius-custom (@radius: 5px) {
 	border-radius: @radius;
 }
 
@@ -221,7 +221,7 @@ header.nav-wrapper {
 .hero {
   .box:first-child {
     border: 2px solid white;
-    .border-radius(10px);
+    .border-radius-custom(@rounded);
     background: rgba(255, 255, 255, 0.5);
     h1 {
       text-align: center;
@@ -236,7 +236,7 @@ header.nav-wrapper {
       font-family: @muli;
       margin: 0 auto;
       border: 5px solid purple;
-      border-radius: @rounded;
+      .border-radius-custom(@rounded);
       background: rgba(255, 255, 255, 0.7);
     }
   }
@@ -244,8 +244,8 @@ header.nav-wrapper {
     img {
       margin: 0 auto;
       width: 90%;
-      height: auto;
-      border-radius: @circle;
+	  height: auto;
+	  .border-radius-custom(@circle);
       box-shadow: 0 3px 8px 10px rgba(0, 0, 0, 0.6);
     }
   }
