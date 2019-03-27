@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 html,
 body,
@@ -162,18 +162,18 @@ body {
   background: red;
 }
 h1 {
-  font-family: 'Sedgwick Ave', cursive;
+  font-family: "Sedgwick Ave", cursive;
 }
 h2,
 h3,
 nav {
-  font-family: 'Kodchasan', sans-serif;
+  font-family: "Kodchasan", sans-serif;
 }
 p {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 table {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
 }
 .box {
   padding: 1rem;
@@ -181,6 +181,9 @@ table {
   display: flex;
   flex-direction: column;
   align-content: center;
+}
+.centered {
+  margin: 0 auto;
 }
 body {
   background: linear-gradient(purple, white);
@@ -221,7 +224,7 @@ header.nav-wrapper .main-nav a:hover {
 .hero .box:first-child .button {
   padding: 1rem 2rem;
   text-decoration: none;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   margin: 0 auto;
   border: 5px solid purple;
   border-radius: 10px;
@@ -233,4 +236,18 @@ header.nav-wrapper .main-nav a:hover {
   height: auto;
   border-radius: 50%;
   box-shadow: 0 3px 8px 10px rgba(0, 0, 0, 0.6);
+}
+.skills .box:first-child h2 {
+  font-size: 2.5rem;
+  text-shadow: 1px 2px 5px purple;
+  margin-bottom: 1rem;
+}
+.skills .box:last-child {
+  flex-direction: row;
+}
+.skills .box:last-child ol {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  width: 50%;
 }
