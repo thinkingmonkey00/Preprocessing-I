@@ -158,6 +158,17 @@ p {
 table {
   font-family: 'Source Code Pro', monospace;
 }
+.box {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+body {
+  background: linear-gradient(#800080, #ffffff);
+  background-repeat: no-repeat;
+}
 header.nav-wrapper {
   width: 100vw;
   display: flex;
@@ -165,14 +176,44 @@ header.nav-wrapper {
 }
 header.nav-wrapper .main-nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  text-align: center;
 }
 header.nav-wrapper .main-nav a {
   font-size: 2.5rem;
+  color: whitesmoke;
   padding: 1rem;
   text-decoration: none;
   border-bottom: 2px solid transparent;
 }
 header.nav-wrapper .main-nav a:hover {
   border-bottom: 2px solid purple;
+}
+.hero .box:first-child {
+  border: 2px solid white;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.hero .box:first-child h1 {
+  text-align: center;
+}
+.hero .box:first-child p {
+  padding: 1rem 2rem;
+}
+.hero .box:first-child .button {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-family: 'Muli', sans-serif;
+  margin: 0 auto;
+  border: 5px solid purple;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.hero .box:last-child img {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 3px 8px 10px rgba(0, 0, 0, 0.6);
 }
