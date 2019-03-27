@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Kodchasan");
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -139,7 +139,8 @@ table {
 }
 html,
 body {
-  height: 100%;
+  background: linear-gradient(to right bottom, #800080, #600e73, #421163, #261051, #0c0a3e);
+  background-size: cover;
 }
 .test {
   background: red;
@@ -149,7 +150,7 @@ body {
 }
 h1 {
   font-family: "Sedgwick Ave", cursive;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 h2,
 h3,
@@ -158,21 +159,19 @@ nav {
   font-size: 3.5rem;
 }
 p {
-  font-family: "Muli", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 table {
   font-family: "Source Code Pro", monospace;
 }
 .box {
-  padding: 1rem;
+  padding: 1rem 2rem;
   margin: 1rem;
   display: flex;
   flex-direction: column;
   align-content: center;
 }
 body {
-  background: linear-gradient(#800080, #ffffff);
-  background-repeat: no-repeat;
   font-size: 2rem;
 }
 header.nav-wrapper {
@@ -203,7 +202,6 @@ header.nav-wrapper .main-nav a:hover {
 }
 .hero .box:first-child h1 {
   padding-top: 1rem;
-  text-align: center;
   color: purple;
 }
 .hero .box:first-child p {
@@ -212,13 +210,13 @@ header.nav-wrapper .main-nav a:hover {
 .hero .box:first-child .button {
   padding: 1rem 2rem;
   text-decoration: none;
-  font-family: "Muli", sans-serif;
+  font-family: "Kodchasan", sans-serif;
   margin: 0 auto;
   border: 5px solid purple;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.7);
 }
-.hero .box:last-child img {
+.hero .box.box2 img {
   margin: 0 auto;
   width: 90%;
   height: auto;
@@ -228,29 +226,34 @@ header.nav-wrapper .main-nav a:hover {
 .skills {
   margin-top: 2rem;
 }
-.skills .box:first-child h2 {
-  text-shadow: 1px 2px 5px purple;
+.skills .box.box1 {
+  background: rgba(128, 0, 128, 0.8);
+  border-radius: 10px;
+  color: whitesmoke;
+}
+.skills .box.box1 h2 {
   margin-bottom: 1rem;
 }
-.skills .box:first-child p {
-  padding: 1rem;
+.skills .box.box1 p {
+  padding: 2rem;
 }
-.skills .arrow-background {
+.skills .box.arrow-background {
   background: url(https://images.unsplash.com/photo-1497005367839-6e852de72767?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
   flex-direction: column;
   align-items: flex-start;
+  height: 33vh;
   margin: 0;
   padding: 0;
 }
-.skills .arrow-background .box ol {
+.skills .box.arrow-background .box ol {
   display: flex;
   flex-direction: column;
   font-size: 2.5rem;
 }
-.skills .arrow-background .box ol li {
+.skills .box.arrow-background .box ol li {
   padding: 1rem 0;
   font-family: "Kodchasan", sans-serif;
   font-variant: small-caps;
