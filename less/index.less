@@ -156,6 +156,9 @@ body {
 @monospace: @source-code-pro;
 
 // Globals
+.test {
+	background: red;
+}
 h1 {
 	font-family: @sedgwick;
 }
@@ -167,4 +170,22 @@ p {
 }
 table {
 	font-family: @monospace;
+}
+header.nav-wrapper {
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	.main-nav {
+		display: flex;
+		justify-content: space-around;
+		a {
+			font-size: 2.5rem;
+			padding: 1rem;
+			text-decoration: none;
+			border-bottom: 2px solid transparent;
+			&:hover {
+				border-bottom: 2px solid purple;
+			}
+		}
+	}
 }

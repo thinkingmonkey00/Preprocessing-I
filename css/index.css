@@ -158,6 +158,9 @@ body {
   font-weight: 400;
   src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v9/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevT.ttf) format('truetype');
 }
+.test {
+  background: red;
+}
 h1 {
   font-family: 'Sedgwick Ave', cursive;
 }
@@ -171,4 +174,22 @@ p {
 }
 table {
   font-family: 'Source Code Pro', monospace;
+}
+header.nav-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+header.nav-wrapper .main-nav {
+  display: flex;
+  justify-content: space-around;
+}
+header.nav-wrapper .main-nav a {
+  font-size: 2.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+header.nav-wrapper .main-nav a:hover {
+  border-bottom: 2px solid purple;
 }
