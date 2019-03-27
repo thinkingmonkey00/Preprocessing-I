@@ -252,8 +252,9 @@ header.nav-wrapper {
       text-decoration: none;
       font-family: @kodchasan;
       //   font-variant: small-caps;
+      color: green;
       margin: 0 auto;
-      border: 5px solid purple;
+      border: 5px solid green();
       .border-radius-custom(@rounded);
       background: rgba(255, 255, 255, 0.7);
     }
@@ -287,14 +288,14 @@ header.nav-wrapper {
     background-repeat: no-repeat;
     background-position-y: center;
     flex-direction: column;
-	align-items: flex-end;
+    align-items: flex-end;
     height: 33vh;
     margin: 0;
     padding: 0 1rem;
     .box {
       ol {
-		  align-items: end;
-		  text-align: right;
+        align-items: end;
+        text-align: right;
         li {
           padding: 1rem 0;
           font-family: @kodchasan;
@@ -306,18 +307,3 @@ header.nav-wrapper {
     }
   }
 }
-
-// .box {
-//   ol {
-//     display: flex;
-// 	flex-direction: column;
-// 	align-content: flex-end;
-//     li {
-//   padding: 1rem 0;
-//   font-family: @kodchasan;
-//   font-variant: small-caps;
-//   color: @md-red-purple;
-//   font-size: 3.5rem;
-//     }
-//   }
-// }

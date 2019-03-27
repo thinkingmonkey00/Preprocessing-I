@@ -229,7 +229,7 @@ header.nav-wrapper .main-nav a:hover {
   text-decoration: none;
   font-family: "Kodchasan", sans-serif;
   margin: 0 auto;
-  border: 5px solid purple;
+  border: 5px solid green;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.7);
 }
@@ -275,4 +275,18 @@ header.nav-wrapper .main-nav a:hover {
   font-variant: small-caps;
   color: #0c0a3e;
   font-size: 3.75rem;
+}
+.tabbed-nav.tabbed-cv {
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+.tabbed-nav.tabbed-cv a {
+  border: 2px solid white;
+  padding: 1rem 0.5rem;
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+  align-self: center;
+  border-radius: 10px;
 }
