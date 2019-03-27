@@ -176,7 +176,7 @@ nav {
   font-size: 3.5rem;
 }
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 table {
   font-family: "Source Code Pro", monospace;
@@ -260,21 +260,19 @@ header.nav-wrapper .main-nav a:hover {
   background-repeat: no-repeat;
   background-position-y: center;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   height: 33vh;
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
 }
 .skills .box.arrow-background .box ol {
-  display: flex;
-  flex-direction: column;
-  font-size: 2.5rem;
+  align-items: end;
+  text-align: right;
 }
 .skills .box.arrow-background .box ol li {
   padding: 1rem 0;
   font-family: "Kodchasan", sans-serif;
   font-variant: small-caps;
-  color: purple;
-  font-weight: 700;
-  font-size: 1.2rem;
+  color: #0c0a3e;
+  font-size: 3.75rem;
 }
