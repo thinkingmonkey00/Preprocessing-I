@@ -161,6 +161,9 @@ body {
 .test {
   background: red;
 }
+.hidden {
+  display: none;
+}
 h1 {
   font-family: "Sedgwick Ave", cursive;
 }
@@ -198,7 +201,7 @@ header.nav-wrapper .main-nav {
   text-align: center;
 }
 header.nav-wrapper .main-nav a {
-  font-size: 2.5rem;
+  font-size: 1rem;
   color: whitesmoke;
   padding: 1rem;
   text-decoration: none;
@@ -213,7 +216,10 @@ header.nav-wrapper .main-nav a:hover {
   background: rgba(255, 255, 255, 0.5);
 }
 .hero .box:first-child h1 {
+  padding-top: 1rem;
   text-align: center;
+  font-size: 2rem;
+  color: purple;
 }
 .hero .box:first-child p {
   padding: 1rem 2rem;
@@ -239,19 +245,24 @@ header.nav-wrapper .main-nav a:hover {
   text-shadow: 1px 2px 5px purple;
   margin-bottom: 1rem;
 }
-.skills .box:last-child {
+.skills .arrow-background {
+  background: url(https://images.unsplash.com/photo-1497005367839-6e852de72767?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 }
-.skills .box:last-child .box ol {
+.skills .arrow-background .box ol {
   display: flex;
   flex-direction: column;
   font-size: 2.5rem;
 }
-.skills .box:last-child .box ol li {
+.skills .arrow-background .box ol li {
   padding: 1rem 0;
   font-family: "Kodchasan", sans-serif;
   font-variant: small-caps;
   color: purple;
   font-weight: 700;
+  font-size: 2.25rem;
 }

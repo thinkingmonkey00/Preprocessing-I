@@ -171,6 +171,9 @@ body {
 .test {
   background: red;
 }
+.hidden {
+  display: none;
+}
 h1 {
   font-family: @sedgwick;
 }
@@ -208,7 +211,7 @@ header.nav-wrapper {
     justify-content: space-around;
     text-align: center;
     a {
-      font-size: 2.5rem;
+      font-size: 1rem;
       color: whitesmoke;
       padding: 1rem;
       text-decoration: none;
@@ -225,7 +228,10 @@ header.nav-wrapper {
     .border-radius-custom(@rounded);
     background: rgba(255, 255, 255, 0.5);
     h1 {
+      padding-top: 1rem;
       text-align: center;
+      font-size: 2rem;
+      color: purple;
     }
     p {
       padding: 1rem 2rem;
@@ -259,9 +265,13 @@ header.nav-wrapper {
       margin-bottom: 1rem;
     }
   }
-  .box:last-child {
-	flex-direction: row;
-	justify-content: space-evenly;
+  .arrow-background {
+    background: url(https://images.unsplash.com/photo-1497005367839-6e852de72767?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    flex-direction: row;
+    justify-content: flex-end;
     .box {
       ol {
         display: flex;
@@ -272,10 +282,10 @@ header.nav-wrapper {
           font-family: @kodchasan;
           font-variant: small-caps;
           color: purple;
-		  font-weight: 700;
-		}
+          font-weight: 700;
+          font-size: 2.25rem;
         }
       }
     }
   }
-
+}
