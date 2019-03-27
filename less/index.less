@@ -159,12 +159,12 @@ body {
 @circle: 50%;
 @centered: 0 auto;
 
-//Mixins 
+//Mixins
 .border-radius-custom (@radius: 5px) {
-	border-radius: @radius;
+  border-radius: @radius;
 }
 .margin-centered (@margin-x: 0 auto) {
-	margin: @margin-x;
+  margin: @margin-x;
 }
 
 // Globals
@@ -245,8 +245,8 @@ header.nav-wrapper {
     img {
       margin: 0 auto;
       width: 90%;
-	  height: auto;
-	  .border-radius-custom(@circle);
+      height: auto;
+      .border-radius-custom(@circle);
       box-shadow: 0 3px 8px 10px rgba(0, 0, 0, 0.6);
     }
   }
@@ -260,13 +260,22 @@ header.nav-wrapper {
     }
   }
   .box:last-child {
-    flex-direction: row;
-    ol {
-      display: flex;
-      flex-direction: column;
-	  font-size: 2.5rem;
-	  width: 50%;
-	  align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+    .box {
+      ol {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5rem;
+        li {
+          padding: 1rem 0;
+          font-family: @kodchasan;
+          font-variant: small-caps;
+          color: purple;
+		  font-weight: 700;
+		}
+        }
+      }
     }
   }
-}
+

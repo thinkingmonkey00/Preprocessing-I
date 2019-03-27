@@ -224,11 +224,17 @@ header.nav-wrapper .main-nav a:hover {
 }
 .skills .box:last-child {
   flex-direction: row;
+  justify-content: space-evenly;
 }
-.skills .box:last-child ol {
+.skills .box:last-child .box ol {
   display: flex;
   flex-direction: column;
   font-size: 2.5rem;
-  width: 50%;
-  align-items: center;
+}
+.skills .box:last-child .box ol li {
+  padding: 1rem 0;
+  font-family: "Kodchasan", sans-serif;
+  font-variant: small-caps;
+  color: purple;
+  font-weight: 700;
 }
