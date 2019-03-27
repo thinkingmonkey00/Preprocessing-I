@@ -157,10 +157,14 @@ body {
 
 @rounded: 10px;
 @circle: 50%;
+@centered: 0 auto;
 
 //Mixins 
 .border-radius-custom (@radius: 5px) {
 	border-radius: @radius;
+}
+.margin-centered (@margin-x: 0 auto) {
+	margin: @margin-x;
 }
 
 // Globals
@@ -187,9 +191,6 @@ table {
   display: flex;
   flex-direction: column;
   align-content: center;
-}
-.centered {
-	margin: 0 auto;
 }
 
 // Nested
@@ -265,6 +266,7 @@ header.nav-wrapper {
       flex-direction: column;
 	  font-size: 2.5rem;
 	  width: 50%;
+	  align-items: center;
     }
   }
 }

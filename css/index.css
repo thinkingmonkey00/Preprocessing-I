@@ -182,9 +182,6 @@ table {
   flex-direction: column;
   align-content: center;
 }
-.centered {
-  margin: 0 auto;
-}
 body {
   background: linear-gradient(purple, white);
   background-repeat: no-repeat;
@@ -250,4 +247,5 @@ header.nav-wrapper .main-nav a:hover {
   flex-direction: column;
   font-size: 2.5rem;
   width: 50%;
+  align-items: center;
 }
