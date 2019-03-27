@@ -1,3 +1,11 @@
 {
-  "dependencies": {}
+  "name": "Preprocessing-I",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/thinkingmonkey00/Preprocessing-I.git",
+  "author": "melissa-murphy <melissamurphy.ca@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "less-watch-compiler less css index.less"
+  }
 }

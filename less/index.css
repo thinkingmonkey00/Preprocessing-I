@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Kodchasan");
 
-@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -229,12 +229,11 @@ header.nav-wrapper .main-nav a:hover {
   margin-top: 2rem;
 }
 .skills .box:first-child h2 {
-  font-size: 2.5rem;
   text-shadow: 1px 2px 5px purple;
   margin-bottom: 1rem;
 }
 .skills .box:first-child p {
-  font-size: 1.2rem;
+  padding: 1rem;
 }
 .skills .arrow-background {
   background: url(https://images.unsplash.com/photo-1497005367839-6e852de72767?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);

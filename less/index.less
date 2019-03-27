@@ -145,13 +145,13 @@ body {
 // Font imports
 @import url("https://fonts.googleapis.com/css?family=Sedgwick+Ave");
 @import url("https://fonts.googleapis.com/css?family=Kodchasan");
-@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 
 // Variables
 @sedgwick: "Sedgwick Ave", cursive;
 @kodchasan: "Kodchasan", sans-serif;
-@muli: "Muli", sans-serif;
+@ubuntu: "Ubuntu", sans-serif;
 @source-code-pro: "Source Code Pro", monospace;
 
 @monospace: @source-code-pro;
@@ -177,7 +177,7 @@ body {
 }
 h1 {
   font-family: @sedgwick;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 h2,
 h3,
@@ -185,9 +185,9 @@ nav {
   font-family: @kodchasan;
   font-size: 3.5rem;
 }
-p {
-  font-family: @muli;
-}
+// p {
+//   font-family: @ubuntu;
+// }
 table {
   font-family: @monospace;
 }
@@ -237,7 +237,8 @@ header.nav-wrapper {
       color: purple;
     }
     p {
-      padding: 1rem 2rem;
+	  padding: 1rem 2rem;
+	  color: blue;
       // text-align: justify;
     }
     .button {
@@ -264,12 +265,11 @@ header.nav-wrapper {
   margin-top: 2rem;
   .box:first-child {
     h2 {
-      font-size: 2.5rem;
       text-shadow: 1px 2px 5px purple;
       margin-bottom: 1rem;
     }
     p {
-      font-size: 1.2rem;
+		padding: 1rem;
     }
   }
   .arrow-background {
