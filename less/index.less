@@ -152,6 +152,10 @@ table {
 @rounded: 10px;
 @circle: 50%;
 @centered: 0 auto;
+@tablet: ~"(max-width: 800px)";
+@laptop: ~"(max-width: 1024px)";
+@desktop: ~"(max-width: 1600px)";
+@huge: ~"(max-width: 2650px)";
 
 //Mixins
 .border-radius-custom (@radius: 5px) {
@@ -168,6 +172,9 @@ height: 100%;
 }
 body.container {
   max-width: 500px;
+  @media @tablet {
+
+  }
   height: 100%;
   margin: 0;
   background: linear-gradient(
