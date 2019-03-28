@@ -221,9 +221,10 @@ header.nav-wrapper .main-nav a:hover {
 .hero .box.box1 h1 {
   padding-top: 1rem;
   color: purple;
+  text-align: center;
 }
 .hero .box.box1 p {
-  padding: 1rem 2rem;
+  padding: 1rem;
 }
 .hero .box.box1 .button {
   padding: 1rem 2rem;
@@ -312,4 +313,21 @@ header.nav-wrapper .main-nav a:hover {
 }
 .work-history .tabbed-cv ul li {
   padding: 1rem;
+}
+.main-footer {
+  padding: 2rem 1rem;
+  color: whitesmoke;
+}
+.main-footer .bottom-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.main-footer .bottom-nav ul a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.main-footer p {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 0.75rem;
 }
