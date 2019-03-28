@@ -134,9 +134,13 @@ table {
   box-sizing: border-box;
 }
 
-html,
-body {
-  //   height: 100%;
+html {
+height: 100%;
+}
+body.container {
+  max-width: 500px;
+  height: 100%;
+  margin: 0;
   background: linear-gradient(
     to right bottom,
     #800080,
@@ -145,9 +149,8 @@ body {
     #261051,
     #0c0a3e
   );
-  background-size: cover;
-
-  // background-color: red;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 // Custom Styling
@@ -187,7 +190,7 @@ body {
 }
 h1 {
   font-family: @sedgwick;
-  font-size: 5rem;
+  // font-size: 5rem;
 }
 h2,
 h3,
@@ -254,7 +257,7 @@ header.nav-wrapper {
       //   font-variant: small-caps;
       color: green;
       margin: 0 auto;
-      border: 5px solid green();
+      border: 5px solid green;
       .border-radius-custom(@rounded);
       background: rgba(255, 255, 255, 0.7);
     }
@@ -306,4 +309,14 @@ header.nav-wrapper {
       }
     }
   }
+}
+
+.work-history {
+	.tabbed-cv {
+		.tabbed-nav {
+			a {
+				border: 2px solid white;
+			}
+		}
+	}
 }
