@@ -223,17 +223,24 @@ header.nav-wrapper .main-nav a:hover {
   text-align: center;
 }
 .hero .box.box1 p {
-  padding: 1rem;
+  padding: 1rem 0.5rem;
 }
 .hero .box.box1 .button {
-  padding: 1rem 2rem;
-  text-decoration: none;
-  font-family: "Kodchasan", sans-serif;
-  color: green;
-  margin: 0 auto;
-  border: 3px solid green;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.7);
+  align-self: center;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  background: #ff6f00;
+  text-decoration: none;
+  color: white;
+}
+.hero .box.box1 .button span {
+  display: flex;
+}
+.hero .box.box1 .button span img {
+  transform: rotate(270deg);
 }
 .hero .box.box2 img {
   margin: 0 auto;
