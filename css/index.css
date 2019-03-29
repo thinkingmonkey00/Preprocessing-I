@@ -1,6 +1,30 @@
+@font-face {
+  font-family: 'Sedgwick Ave';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sedgwick Ave Regular'), local('SedgwickAve-Regular'), url(https://fonts.gstatic.com/s/sedgwickave/v4/uK_04rKEYuguzAcSYRdWTJqMWWIx.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Kodchasan';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kodchasan Regular'), local('Kodchasan-Regular'), url(https://fonts.gstatic.com/s/kodchasan/v2/1cXxaUPOAJv9sG4I-DJWiHGA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v9/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevT.ttf) format('truetype');
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
-v2.0 | 20110126
-License: none (public domain)
+   v2.0 | 20110126
+   License: none (public domain)
 */
 html,
 body,
@@ -119,40 +143,21 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* Set every element's box-sizing to border-box */
+.test {
+  background: red;
+}
+.hidden {
+  display: none;
+}
 * {
   box-sizing: border-box;
-}
-@font-face {
-  font-family: 'Sedgwick Ave';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Sedgwick Ave Regular'), local('SedgwickAve-Regular'), url(https://fonts.gstatic.com/s/sedgwickave/v4/uK_04rKEYuguzAcSYRdWTJqMWWIx.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Kodchasan';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Kodchasan Regular'), local('Kodchasan-Regular'), url(https://fonts.gstatic.com/s/kodchasan/v2/1cXxaUPOAJv9sG4I-DJWiHGA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Source Code Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v9/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevT.ttf) format('truetype');
 }
 html {
   height: 100%;
@@ -164,12 +169,6 @@ body.container {
   background: linear-gradient(to right bottom, #800080, #600e73, #421163, #261051, #0c0a3e);
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-.test {
-  background: red;
-}
-.hidden {
-  display: none;
 }
 h1 {
   font-family: "Sedgwick Ave", cursive;
